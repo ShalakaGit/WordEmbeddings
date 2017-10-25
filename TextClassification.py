@@ -11,6 +11,10 @@ Created on Mon Oct  2 17:15:16 2017
 @author: Shalaka
 """
 
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
 # Text Classification using Word Embeddings
 import nltk
 from nltk.corpus import stopwords
@@ -19,9 +23,7 @@ from sklearn.datasets import fetch_20newsgroups
 from pprint import pprint
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
+
 
 import collections
 import math
